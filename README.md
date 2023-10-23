@@ -3,4 +3,9 @@
   <h1 align="center">The best Save the World Fortnite Private Server!</h1>
  <p>Fusion is the rewrite to the original HomebaseX source to be 100x more efficient, more version support, anti-skid measures and more!</p>
  <p>Planned Features:</p>
+ <p>S1 - S19 Support</p>
+ <p>Cinematics</p>
+ <p>Playable Missions</p>
+ <p>Daily Rewards</p>
+ <p>QOL improvements</p>
 </p>
