@@ -47,17 +47,26 @@ BOOL APIENTRY DllMain(HMODULE hModule,DWORD  ul_reason_for_call,LPVOID lpReserve
         FILE* Handle;
         freopen_s(&Handle, "CONOUT$", "w", stdout);
 
-        std::cout << Helpers::GetVersion() << std::endl;
+        float FNVer = Helpers::GetVersion();
 
-        LPCWSTR targetDLLPath = L"Fusion-Test.dll";
-        if (StartDLL(targetDLLPath))
-        {
-            // The DllMain process was started successfully
+        if (FNVer == 3.5) {
+            LPCWSTR targetDLLPath = L"Fusion 3.5.dll";
+            if (StartDLL(targetDLLPath))
+            {
+                // The DllMain process was started successfully
+            }
+            else
+            {
+                //printf("\nAn issue has occurred.\n");
+                return TRUE;
+            }
         }
-        else
-        {
-            // There was an issue starting the DllMain process
+        else {
+            printf("\nHomebaseX (Fusion) currently does NOT support this version! Get the available versions from our Discord\nDiscord: https://discord.gg/pFej6wydPD\n");
+            return TRUE;
         }
+
+        
         break;
     }
     return TRUE;
