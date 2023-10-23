@@ -61,6 +61,18 @@ BOOL APIENTRY DllMain(HMODULE hModule,DWORD  ul_reason_for_call,LPVOID lpReserve
                 return TRUE;
             }
         }
+        else if (FNVer == 12.41) {
+            LPCWSTR targetDLLPath = L"Fusion 12.41.dll";
+            if (StartDLL(targetDLLPath))
+            {
+                // The DllMain process was started successfully
+            }
+            else
+            {
+                //printf("\nAn issue has occurred.\n");
+                return TRUE;
+            }
+        }
         else {
             printf("\nHomebaseX (Fusion) currently does NOT support this version! Get the available versions from our Discord\nDiscord: https://discord.gg/pFej6wydPD\n");
             return TRUE;
