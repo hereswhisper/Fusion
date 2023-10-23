@@ -8,6 +8,21 @@
 
 Welcome to our Fortnite Save the World Private Server project! We aim to provide the best experience for Save the World enthusiasts and offer an alternative gaming environment. Our project is open-source, community-driven, and constantly evolving. Join us to enhance your gaming experience and contribute to the project's development.
 
+## Feature Overview
+
+- **Fortnite Season Support:** Our private server supports Seasons 1 to 19, allowing you to experience most of Save the World's Timeline.
+
+- **Crafting:** Craft the items you dreamed of!
+
+- **Cinematics:** Relive the old Cinematics!
+
+- **Playable Missions:** Go back in time to play the old msisions!
+
+- **Abilities:** Working Sprinting, Jumping across all versions!
+
+- **Inventory:** We have a fully-functional Inventory system!
+
+
 ## Compilation Guide
 
 ### Prerequisites
