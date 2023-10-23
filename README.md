@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/1134250389403873331/1165870523788574800/FusionIcon.png?ex=65486c89&is=6535f789&hm=4aab326d88ac415716ea7eeffe19b524b87d98fa14c7400820032740dbd316a8&=" height=100px alt="Logo">
+  <img src="https://media.discordapp.net/attachments/1165736940277072062/1166131799450202182/FusionMPIcon.png?ex=65495fde&is=6536eade&hm=1c82bd2925a5b6073d1613bc4b2bd15032b36f76db8700ae9e3cfc5721cfa7d8&=" height=100px alt="Logo">
 </p>
 
 <h1 align="center">The best Save the World Fortnite Private Server!</h1>
